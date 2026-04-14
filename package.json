@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "concurrently \"npx tsx server/server.ts\" \"npx vite\"",
     "dev": "vite",
     "server": "npx tsx server/server.ts",
     "build": "vite build",
