@@ -14,4 +14,9 @@ export default defineConfig(() => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+
+  // ✅ ADD THIS PART (VERY IMPORTANT)
+  build: {
+    outDir: "dist",
+  },
 }));
